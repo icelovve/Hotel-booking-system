@@ -36,8 +36,8 @@ export default async function handler(req, res) {
                     users: {
                         id: user.user_id,
                         name: user.first_name + ' ' + user.last_name,
-                        email: user.email,
-                        phone_number: user.phone_number,
+                        // email: user.email,
+                        // phone_number: user.phone_number,
                         role:user.role
                     }
                 });
